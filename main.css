@@ -11,8 +11,8 @@
     --Dribble_color: rgba(230, 40, 114, 1);
     --Tetiary_color: rgba(28, 30, 83, 1);
 }
-body {
+html {
 	font-size: 24px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: Poppins;
 	scroll-behavior: smooth;
 }    
