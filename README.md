@@ -1,2 +1,2 @@
-# LogoIspium
-A product design landing page 
+## LogoIspium
+A clone of a landing page for a product designer 
