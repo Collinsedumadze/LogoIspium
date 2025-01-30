@@ -1,8 +1,11 @@
 @import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
 * {
+    box-sizing: border-box;
+}
+
+body{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 :root {
     --Primary_color: #5E3BEE;
@@ -16,3 +19,49 @@ html {
 	font-family: Poppins;
 	scroll-behavior: smooth;
 }    
+
+
+header{
+    width: 100%;
+    
+    margin: 5px 3%;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    cursor: pointer;
+    display: flex;
+    flex: 1;
+}
+
+.logo img{
+    height: 45px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    text-decoration: none;
+    flex: 1;
+    padding-left: 0;
+    background-color: blue;
+    padding: 9px;
+}
+.navber li,a{
+    text-decoration: none;
+}
+
+
+.contactbtn{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    background-color: red;
+}
+
