@@ -1,11 +1,12 @@
 @import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body{
-    margin: 0;
-    padding: 0;
+    font-family: Poppins;
 }
 :root {
     --Primary_color: #5E3BEE;
@@ -14,54 +15,49 @@ body{
     --Dribble_color: rgba(230, 40, 114, 1);
     --Tetiary_color: rgba(28, 30, 83, 1);
 }
-html {
-	font-size: 24px;
-	font-family: Poppins;
-	scroll-behavior: smooth;
-}    
-
-
-header{
-    width: 100%;
-    
-    margin: 5px 3%;
-}
-
-header .container {
+.container {
+    background-color: white;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    width: 100%;
+    padding: 15px 45px;
 }
 
 .logo {
-    cursor: pointer;
+    height: 45px; 
     display: flex;
-    flex: 1;
+    align-items: center;
+    justify-content: center;   
 }
+ .logo img {
+    width: 70%;
+ }
 
-.logo img{
-    height: 45px;
-}
-
-.navbar{
+ .navbar{
+    list-style: none;
     display: flex;
     justify-content: space-between;
-    list-style-type: none;
+    align-items: center;
+    gap: 40px;
+ }
+
+ .navbar li a{
     text-decoration: none;
-    flex: 1;
-    padding-left: 0;
-    background-color: blue;
+    color: black;
+    font-weight: 500;
+ }
+ .navbar li a:hover , a:active{
+    color: var(--Primary_color);
+ }
+
+ .contactbtn{
+    text-decoration: none;
+    color: var(--Primary_color);
+    border: var(--Primary_color) solid 2px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
     padding: 9px;
-}
-.navber li,a{
-    text-decoration: none;
-}
-
-
-.contactbtn{
-    display: flex;
-    justify-content: center;
-    flex: 1;
-    background-color: red;
-}
+    padding: 10px 15px;
+ }
 
