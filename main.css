@@ -14,9 +14,11 @@ body{
     --Body_color: rgba(245, 252, 255, 1);
     --Dribble_color: rgba(230, 40, 114, 1);
     --Tetiary_color: rgba(28, 30, 83, 1);
+    --Norm_color: rgb(255, 255, 255);
+    --Norm2_color: rgb(0, 0, 0);
 }
 .container {
-    background-color: white;
+    background-color: var(--Norm_color);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,7 +45,7 @@ body{
 
  .navbar li a{
     text-decoration: none;
-    color: black;
+    color: var(--Norm2_color);
     font-weight: 500;
  }
  .navbar li a:hover , a:active{
@@ -61,6 +63,8 @@ body{
  }
 
  /*main section*/ 
+ /*first container*/ 
+
  .s1{
     display: flex;
     justify-content: center;
@@ -100,7 +104,7 @@ h1 span{
     padding: 10px 15px;
     text-align: center;
     text-decoration: none;
-    color: white;
+    color: var(--Norm_color);
     border: var(--Primary_color) solid 1px;
     border-radius: 4px;
     background-color: var(--Primary_color);
@@ -111,3 +115,5 @@ h1 span{
 .Person1{
     width: 50%;
 }
+
+ /*second container*/ 
