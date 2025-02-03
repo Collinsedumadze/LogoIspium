@@ -61,3 +61,55 @@ body{
     padding: 10px 15px;
  }
 
+ /*main section*/ 
+ .s1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #5E3BEE solid 5px;
+    background-color: var(--Body_color);
+ }
+
+ .leftside{
+    width: 100%;
+    height: 60vh;
+    border: #5E3BEE solid 5px;
+ }
+.leftside h1{
+    font-size: 50px;
+    padding-bottom: 15px;
+    line-height: 68px;
+}
+
+h1 span{
+    color: var(--Primary_color);
+}
+
+.p{
+    width: 87%;
+}
+
+.leftside p{
+    padding-bottom: 20px;
+}
+
+.in_touchbtn{
+    display: inline-block;
+    border: #5E3BEE solid 1px;
+    width: 25%;
+    height: 45px;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border: var(--Primary_color) solid 1px;
+    border-radius: 4px;
+    background-color: var(--Primary_color);
+    overflow: hidden;
+
+}
+
+.Person1{
+    width: 50%;
+    border: #5E3BEE solid 5px;
+}
