@@ -117,3 +117,39 @@ h1 span{
 }
 
  /*second container*/ 
+ .s2{
+    display: flex;
+    flex-direction: column;
+    padding: 7% 60px;
+    row-gap: 60px;
+ }
+
+ div h2 {
+    font-size: 50px;
+ }
+
+ .expert_ise{
+    display: flex;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 25px;
+ }
+ .skills1, .skills2, .skills3, .skills4{
+    background-color: var(--Body_color);
+    border: none;
+    border-radius: 9px;
+ }
+
+ .skills1 div, .skills2 div, .skills3 div, .skills4 div{
+    background: red;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .skills1 img{
+    width: 40px;
+
+ }
