@@ -139,17 +139,22 @@ h1 span{
     background-color: var(--Body_color);
     border: none;
     border-radius: 9px;
+    padding: 20px;
  }
 
  .skills1 div, .skills2 div, .skills3 div, .skills4 div{
-    background: red;
+    background: var(--Norm_color);
     width: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px;
+    margin: 0px 10px;
+    border-radius: 5px;
+    margin-bottom: 1em;
  }
 
- .skills1 img{
-    width: 40px;
-
+ .skills1 img, .skills2 img, .skills3 img, .skills4 img{
+    width: 38px;
+    height: 35px;
  }
