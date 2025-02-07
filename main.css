@@ -175,8 +175,7 @@ h1 span{
 
  .about_pic{
     width: 100%;
-    border: red solid 5px;
-    margin-right: 3.7em;
+    margin-right: 5em;
  }
 
  .about_pic img{
@@ -184,7 +183,6 @@ h1 span{
  }
 
 .abt_container{
-    background-color: red;
     width: 100%;
 } 
 
