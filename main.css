@@ -215,8 +215,8 @@ h1 span{
 
     .image-container {
     max-width: 90%; /* Adjust as needed */
-    margin: auto; /* Centers the image */
-    overflow: hidden; /* Prevents overflowing 
+    /*margin: auto; /* Centers the image */
+    /*overflow: hidden; /* Prevents overflowing 
 
 */
 /* General Section Styling */
@@ -247,12 +247,12 @@ h1 span{
 }
 
 .socialbtn img {
-   width: 40px; /* Adjust size as needed */
+   width: 40px; 
    height: auto;
    cursor: pointer;
 }
 
-/* Portfolio Grid */
+
 .rw_img {
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -289,7 +289,7 @@ h1 span{
    margin-bottom: 15px;
 }
 
-/* Button Styling */
+
 button {
    background: #007bff;
    color: white;
@@ -301,7 +301,7 @@ button {
    align-items: center;
    justify-content: center;
    gap: 10px;
-   transition: background 0.3s;
+   /*transition: background 0.3s;*/
 }
 
 button:hover {
