@@ -226,7 +226,7 @@ h1 span{
    text-align: center;
 }
 
-/* Recent Work Header */
+/* Recent Work Header 
 .rescent_work {
    display: flex;
    justify-content: space-between;
@@ -302,7 +302,7 @@ button {
    justify-content: center;
    gap: 10px;
    /*transition: background 0.3s;*/
-}
+
 
 button:hover {
    background: #0056b3;
