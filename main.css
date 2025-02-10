@@ -212,4 +212,103 @@ h1 span{
     height: auto; width: 100%;
     height: auto;
     object-fit: contain;width="814" height="996"
+
+    .image-container {
+    max-width: 90%; /* Adjust as needed */
+    margin: auto; /* Centers the image */
+    overflow: hidden; /* Prevents overflowing 
+
 */
+/* General Section Styling */
+.s4 {
+   padding: 60px 10%;
+   background-color: #f8f9fa;
+   text-align: center;
+}
+
+/* Recent Work Header */
+.rescent_work {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 40px;
+}
+
+.rescent_work p {
+   font-size: 18px;
+   color: #6c757d;
+   margin: 0;
+}
+
+.rescent_work h2 {
+   font-size: 32px;
+   font-weight: bold;
+   margin: 5px 0;
+}
+
+.socialbtn img {
+   width: 40px; /* Adjust size as needed */
+   height: auto;
+   cursor: pointer;
+}
+
+/* Portfolio Grid */
+.rw_img {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+   gap: 20px;
+}
+
+.r_resents {
+   background: white;
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   text-align: center;
+   transition: transform 0.3s ease;
+}
+
+.r_resents:hover {
+   transform: translateY(-5px);
+}
+
+.r_resents img {
+   max-width: 100%;
+   height: auto;
+   border-radius: 10px;
+}
+
+.r_resents h4 {
+   font-size: 22px;
+   margin: 10px 0;
+}
+
+.r_resents p {
+   font-size: 14px;
+   color: #6c757d;
+   margin-bottom: 15px;
+}
+
+/* Button Styling */
+button {
+   background: #007bff;
+   color: white;
+   border: none;
+   padding: 10px 20px;
+   border-radius: 5px;
+   cursor: pointer;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+   transition: background 0.3s;
+}
+
+button:hover {
+   background: #0056b3;
+}
+
+button img {
+   width: 15px;
+   height: auto;
+}
