@@ -207,108 +207,57 @@ h1 span{
 .socialbtn img{
    width: 65%;
 }
-/*
-    max-width: 100%;
-    height: auto; width: 100%;
-    height: auto;
-    object-fit: contain;width="814" height="996"
 
-    .image-container {
-    max-width: 90%; /* Adjust as needed */
-    /*margin: auto; /* Centers the image */
-    /*overflow: hidden; /* Prevents overflowing 
-
-*/
-/* General Section Styling */
-.s4 {
-   padding: 60px 10%;
-   background-color: #f8f9fa;
-   text-align: center;
-}
-
-/* Recent Work Header 
-.rescent_work {
+.rw_img{
    display: flex;
-   justify-content: space-between;
+   justify-content: cente;
    align-items: center;
-   margin-bottom: 40px;
+   margin-top: 3.6rem;
+   gap: 25px;
 }
 
-.rescent_work p {
-   font-size: 18px;
-   color: #6c757d;
-   margin: 0;
+.r_resents{
+   display: flex;
+   border-radius: 5px;
+   box-shadow: 2px 15px 10px rgba(0, 0, 0, 0.096);
+   flex-direction: column;
+   justify-content: center;
 }
 
-.rescent_work h2 {
-   font-size: 32px;
-   font-weight: bold;
-   margin: 5px 0;
-}
-
-.socialbtn img {
-   width: 40px; 
-   height: auto;
-   cursor: pointer;
-}
-
-
-.rw_img {
-   display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-   gap: 20px;
-}
-
-.r_resents {
-   background: white;
-   padding: 20px;
-   border-radius: 10px;
-   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-   text-align: center;
-   transition: transform 0.3s ease;
-}
-
-.r_resents:hover {
-   transform: translateY(-5px);
-}
-
-.r_resents img {
+.r_resents img{
    max-width: 100%;
    height: auto;
-   border-radius: 10px;
 }
 
-.r_resents h4 {
+.r_resents h3{
    font-size: 22px;
-   margin: 10px 0;
+   margin: 14px;
 }
 
-.r_resents p {
-   font-size: 14px;
-   color: #6c757d;
-   margin-bottom: 15px;
+.r_resents p{
+   margin: 0 0 14px 14px;
 }
 
+.r_resents button{
+   display: inline-block;
+   width: 33%;
+   margin: 0 0 14px 14px;
+   background-color: var(--Norm_color);
+   padding: 4px;
+}
 
-button {
-   background: #007bff;
-   color: white;
-   border: none;
-   padding: 10px 20px;
-   border-radius: 5px;
-   cursor: pointer;
+.r_resents button img{
+  width: 13px;
+}
+
+/*container fifth*/
+.s5{
    display: flex;
-   align-items: center;
-   justify-content: center;
-   gap: 10px;
-   /*transition: background 0.3s;*/
-
-
-button:hover {
-   background: #0056b3;
+   padding: 0 60px 7% 60px;
+   flex-direction: column;
 }
 
-button img {
-   width: 15px;
-   height: auto;
+.stars{
+   display: flex;
+   
 }
