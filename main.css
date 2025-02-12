@@ -253,8 +253,9 @@ h1 span{
 /*container fifth*/
 .s5{
    display: flex;
-   padding: 0 60px 7% 60px;
+   padding: 7%  60px 7% 60px;
    flex-direction: column;
+   background-color: var(--Body_color);
 }
 
 .str5{
@@ -269,11 +270,17 @@ h1 span{
    display: flex;
    flex-direction: column;
    padding: 30px;
-   border: 4px solid red;
+   border: 2px solid rgba(36, 95, 95, 0.925);
+   border-radius: 5px;
 }
 
 .stars img{
-   width: 8.5rem;
+   width: 7.5rem;
+   margin-bottom: 1.2rem;
+}
+
+.str img{
+   width: 4.5rem;
    margin-bottom: 1.2rem;
 }
 
@@ -283,14 +290,17 @@ h1 span{
 
 .str{
    display: flex;
-   justify-content: space-between;
 }
 
-.str img{
-   width: 4rem;
+.cite{
+   display: block;
+   margin-top: 0.8rem;
+   margin-left: 0.9rem;
 }
 
-.str p p{
+/*sixth container*/
+.s6{
    display: flex;
-
+   padding: 0 60px 7% 60px;
+   flex-direction: column;
 }
