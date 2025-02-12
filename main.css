@@ -257,7 +257,17 @@ h1 span{
    flex-direction: column;
 }
 
+.str5{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 3.4rem;
+   gap: 25px;
+}
+
 .stars{
    display: flex;
-   
+   flex-direction: column;
+   border: 4px solid red;
 }
+
