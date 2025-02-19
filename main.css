@@ -356,24 +356,43 @@ h1 span{
 }
 
 .form{
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
    margin-top: 1.5rem;
+   padding: 2rem;
    border: 2px solid red;
 }
 
-.names{
-   display: flex;
-   border: 2px solid red;
-   width: 100%;
-   height: auto;
+label {
+   display: block;
+   margin-bottom: 0.5rem;
+   font-weight: bold;
 }
 
-input[text]{
-   display:block ;
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid red;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
 }
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+textarea:focus {
+    border-color: red;
+    outline: none;
+}
+
+textarea {
+   resize: vertical;
+   min-height: 100px;
+}
+
 /*lorem*
 
 
